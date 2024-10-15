@@ -1,0 +1,58 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+img{
+    width: 100%;
+}
+
+.hero-image{
+    background-image: url(./images/Athletics\ Pole\ Vaulting.jpeg);
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    background-position: bottom -275px center;
+}
+
+.hero-text{
+    color: whitesmoke;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 90px;
+    font-size: 4rem;
+}
+
+.sub-image{
+    height: 150px;
+    object-fit: fill;
+    overflow: hidden;
+}
+
+.two-column{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.footer{
+    background-color:black;
+    height: 100px;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.footer-text{
+    color:whitesmoke;
+    font-size: 1.5rem;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+a{
+    color: whitesmoke;
+}
