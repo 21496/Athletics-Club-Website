@@ -24,10 +24,11 @@ img{
     font-size: 4rem;
 }
 
-.sub-image{
+.design{
     height: 150px;
     object-fit: fill;
     overflow: hidden;
+    position: relative;
 }
 
 .two-column{
@@ -38,16 +39,21 @@ img{
     margin-top: 25px;
 }
 
+.card{
+    background-color: rgb(228, 228, 228);
+    text-align: center;
+}
+
 .footer{
     background-color:black;
-    height: 100px;
+    height: 50px;
     margin: auto;
     margin-top: 25px;
 }
 
 .footer-text{
     color:whitesmoke;
-    font-size: 1.5rem;
+    font-size: 1rem;
     position: absolute;
     text-align: center;
     width: 100%;
@@ -56,3 +62,20 @@ img{
 a{
     color: whitesmoke;
 }
+
+.title{
+    background-image: url("./images/Digital_Weave_landscape\ small\ scale\ -\ Burnside\ pounamu.png");
+    height: 75px;
+    object-fit: fill;
+    overflow: hidden;
+    background-size: cover;
+    margin-top: 25px;
+}
+ .main-text{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 2rem;
+    margin: auto;
+    margin-top: 15px;
+ }
+
